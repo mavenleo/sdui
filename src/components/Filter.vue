@@ -60,6 +60,7 @@ import { Options, Vue } from "vue-class-component";
     return {
       searchValue: "",
       sortBy: {
+        property: "title",
         direction: "ASC",
       },
       sortByProperties: ["title", "body", "author"],
