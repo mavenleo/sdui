@@ -1,5 +1,5 @@
 <template>
-  <section class="card border-0 property-card text-start p-3 m-3">
+  <section class="card border feed-card text-start p-3 m-3">
     <div class="fw-bold fs-4">{{ feed.title }}</div>
     <div class="fw-lighter">
       <div>{{ feed.body }}</div>
@@ -51,7 +51,7 @@ export default class NewsFeedCard extends Vue {}
     bottom: 20px;
   }
 }
-.property-card:hover {
+.feed-card:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0;
 }
 </style>
