@@ -13,7 +13,8 @@
       <div class="text-start fw-bold">Author</div>
       <div class="text-start">
         <small class="text-muted">
-          I add this since we should be able to sort by it. Reason I added a default value.
+          I add this since we should be able to sort by it. Reason I added a
+          default value.
         </small>
       </div>
       <input
@@ -66,7 +67,7 @@ import InlineLoader from "@/components/InlineLoader.vue";
       form: {
         title: "",
         body: "",
-        author: "Lucas Adebayo"
+        author: "Lucas Adebayo",
       },
       submittingForm: false,
     };
@@ -107,12 +108,4 @@ import InlineLoader from "@/components/InlineLoader.vue";
 export default class NewsFeedForm extends Vue {}
 </script>
 
-<style lang="scss" scoped>
-.content-wrapper {
-  background: #ffffff9c;
-  border: 1px solid #d8e4f1 !important;
-}
-.feeds {
-  background: #f4f7fb;
-}
-</style>
+<style lang="scss" scoped></style>

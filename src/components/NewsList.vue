@@ -90,8 +90,17 @@ export default class NewsFeeds extends Vue {}
   background: #f4f7fb;
   height: 500px;
   overflow-y: auto;
-}
-.filter-input-width {
-  width: 150px;
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #11171a;
+    border-radius: 10px;
+  }
 }
 </style>

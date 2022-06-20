@@ -43,13 +43,4 @@ import { Options, Vue } from "vue-class-component";
 export default class NavBar extends Vue {}
 </script>
 
-<style lang="scss" scoped>
-.line-divider {
-  background-color: #d8e4f1;
-  height: 1px;
-  margin: {
-    top: 20px;
-    bottom: 20px;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

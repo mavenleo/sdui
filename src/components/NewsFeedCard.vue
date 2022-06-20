@@ -43,14 +43,6 @@ export default class NewsFeedCard extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-.line-divider {
-  background-color: #d8e4f1;
-  height: 1px;
-  margin: {
-    top: 20px;
-    bottom: 20px;
-  }
-}
 .feed-card:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0;
 }
